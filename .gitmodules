@@ -1,0 +1,3 @@
+[submodule "actioncable"]
+	path = actioncable
+	url = git://github.com/rails/actioncable.git
