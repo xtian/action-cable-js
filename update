@@ -1,0 +1,8 @@
+#!/bin/sh
+
+git submodule update --init --rebase
+
+(which sprockets > /dev/null) || gem install sprockets
+
+sprockets -Iactioncable/lib/assets/javascripts \
+  actioncable/lib/assets/javascripts/cable.js.coffee > dist/cable.js
