@@ -1,0 +1,12 @@
+{
+  "name": "actioncable-js",
+  "authors": [ "Christian Wesselhoeft <hi@xtian.us>" ],
+  "description": "JavaScript extracted from the Rails Action Cable repository",
+  "license": "MIT",
+  "main": "dist/cable.js",
+  "ignore": [
+    ".gitmodules",
+    "actioncable",
+    "update"
+  ]
+}
